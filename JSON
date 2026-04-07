@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "u-gray-700",
+          "color": "#374151",
+          "name": "Gray 700"
+        },
+        {
+          "slug": "u-white",
+          "color": "#ffffff",
+          "name": "White"
+        }
+      ],
+      "gradients": [
+        {
+          "slug": "u-summer-dog",
+          "gradient": "linear-gradient(135deg, #ff7e5f, #feb47b)",
+          "name": "Summer Dog"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--u-gray-700)",
+      "background": "var(--wp--preset--color--u-white)"
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "gradient": "var(--wp--preset--gradient--u-summer-dog)"
+        }
+      }
+    }
+  }
+}
